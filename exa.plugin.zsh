@@ -1,6 +1,8 @@
 #!/bin/sh
 
 if command -v exa &> /dev/null; then
-  alias ls="exa --icons --group-directories-first"
-  alias tree="ls --tree --level=2"
+  alias ls='exa --group-directories-first --icons'
+  alias ll='ls -lh --git'
+  alias la='ll -a'
+  alias tree='ll -tree --level=2'
 fi
