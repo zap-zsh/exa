@@ -6,7 +6,7 @@ Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add t
 
 ```sh
 # Install plugin
-plug "zap-zsh/eza"
+plug "zap-zsh/exa"
 ```
 
 ## ⚠️ Special Attention
