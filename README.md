@@ -10,7 +10,7 @@ plug "zap-zsh/exa"
 ```
 
 ## ⚠️ Special Attention
-As mentioned in [this issue](https://github.com/zap-zsh/exa/issues/3), if you are using [zap-zsh/supercharge](https://github.com/zap-zsh/supercharge) you need to load this plugin after *superchage*, otherwise this plugin won't work because *supercharge* define the same `ls` alias (usefull to colorize `ls` output for who is not using **eza**).<BR><BR>
+As mentioned in [this issue](https://github.com/zap-zsh/exa/issues/3), if you are using [zap-zsh/supercharge](https://github.com/zap-zsh/supercharge) you need to load this plugin after *supercharge*, otherwise this plugin won't work because *supercharge* define the same `ls` alias (usefull to colorize `ls` output for who is not using **eza**).<BR><BR>
 Simply put it **after** supercharge declaration in your `.zshrc` like this:
 
 ```sh
