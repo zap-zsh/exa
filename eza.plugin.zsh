@@ -7,7 +7,7 @@ if ! (( $+commands[eza] )); then
 fi
 
 # Create alias override commands using 'eza'
-alias ls='eza --group-directories-first --icons'
+alias ls='eza --group-directories-first --icons=auto'
 
 # Use the --git flag if the installed version of eza supports git
 # Related to https://github.com/ogham/exa/issues/978
